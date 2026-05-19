@@ -8,6 +8,8 @@ const Cart = () => {
   const { cartItems, food_list, removeFromCart, getTotalCartAmount} = useContext(StoreContext)
 
   const navigate = useNavigate();
+  console.log(cartItems);
+  
 
   return (
     <div className='cart'>
